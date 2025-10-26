@@ -80,28 +80,6 @@
   font-size: 0.8em;
 }
 
-.DataBase {
-  margin-top: 40px;
-  text-align: right;
-}
-
-.DataBase a {
-  font-size: clamp(1rem, 2.5vw, 1.2rem);
-  font-weight: 700;
-  color: #fff;
-  background-color: var(--color-secondary);
-  text-decoration: none;
-  padding: 12px 25px;
-  border-radius: 8px;
-  transition: all 0.3s ease;
-  display: inline-block;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
-}
-.DataBase a:hover {
-  background-color: var(--color-primary);
-  transform: translateY(-2px);
-}
-
 .animate-on-scroll {
   opacity: 0;
   transform: translateY(30px);
