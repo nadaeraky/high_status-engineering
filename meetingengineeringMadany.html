@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>المؤتمر العلمي السنوي</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/CSS/searchSection/meetingSearch.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container">
+        <div class="nav-wrapper">
+          <div class="logo">
+            <a href="index.html" aria-label="العودة للصفحة الرئيسية">
+              <img
+                src="assets/image/ndeti-logo.png"
+                alt="شعار المعهد العالي للهندسة والتكنولوجيا"
+              />
+              <span class="logo-text"
+                >المعهد العالي للهندسة<br />
+                والتكنولوجيا بدمياط الجديدة
+              </span>
+            </a>
+          </div>
+
+          <nav class="nav-desktop" aria-label="قائمة التصفح الرئيسية">
+            <ul class="main-menu" role="menu">
+              <li role="menuitem"><a href="index.html">الصفحة الرئيسية</a></li>
+
+              <li class="dropdown" role="menuitem">
+                <a href="index.html" aria-expanded="false" aria-haspopup="true">
+                  عن المعهد <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-content" role="menu">
+                  <li role="menuitem">
+                    <a href="./structureModel.html">الهيكل التنظيمي</a>
+                  </li>
+                  <li role="menuitem"><a href="leader.html">عميد المعهد</a></li>
+                  <li role="menuitem">
+                    <a href="listOfStuts.html">لائحة المعهد</a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="rateOfStatus.html">تقييم المعهد</a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="selfStudy.html"
+                      >الدراسة الذاتية والخطة الأستراتيجية</a
+                    >
+                  </li>
+                  <li role="menuitem">
+                    <a href="systemStydy.html">نظام الدراسة</a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="studentDirection.html"
+                      >قواعد توزيع الطلاب علي التخصصات</a
+                    >
+                  </li>
+
+                  <li role="menuitem">
+                    <a href="functional.html">قرار المعادلة</a>
+                  </li>
+                  <li role="menuitem"><a href="groups.html">أجتماعات</a></li>
+                  <li role="menuitem"><a href="active.html">فعاليات</a></li>
+                  <li role="menuitem"><a href="jops.html">أعلان وظائف</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown" role="menuitem">
+                <a href="#" aria-expanded="false" aria-haspopup="true">
+                  الأقسام العلمية <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-content" role="menu">
+                  <li role="menuitem">
+                    <a href="baisicScience.html">قسم العلوم الأساسيه</a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="engineerSection.html">قسم الهندسة المدنية</a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="chimecalSection.html">قسم الهندسة الكيميائية</a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="electronicSection.html"
+                      >قسم هندسة الاتصالات و الألكترونيات</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="dropdown" role="menuitem">
+                <a href="#" aria-expanded="false" aria-haspopup="true">
+                  شئون الطلاب <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-content" role="menu">
+                  <li role="menuitem">
+                    <a href="studentCare.html"
+                      >الأرشاد الأكاديمي والريادة العلمية</a
+                    >
+                  </li>
+                  <li role="menuitem">
+                    <a href="enrollAcademic.html">التسجيل الاكاديمي</a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="supportAcademic.html">الدعم الأكاديمي</a>
+                  </li>
+
+                  <li class="sub-dropdown" role="menuitem">
+                    <a
+                      href="studentTraining.html"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                    >
+                      تدريبات الطلاب
+                    </a>
+                  </li>
+
+                  <li class="sub-dropdown" role="menuitem">
+                    <a
+                      href="examDictionary.html"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                    >
+                      شئون الدراسة و الأمتحانات
+                    </a>
+                    <ul class="sub-dropdown-content" role="menu"></ul>
+                  </li>
+
+                  <li class="sub-dropdown" role="menuitem">
+                    <a
+                      href="resultOfStudent.html"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                    >
+                      نتائج طلاب
+                    </a>
+                  </li>
+
+                  <li class="sub-dropdown" role="menuitem">
+                    <a
+                      href="studentServices.html"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                    >
+                      خدمات الطلاب
+                    </a>
+                  </li>
+
+                  <li class="sub-dropdown" role="menuitem">
+                    <a
+                      href="achievementScience.html"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                    >
+                      الانجازات العلمية للطلبة
+                    </a>
+                  </li>
+
+                  <li class="sub-dropdown" role="menuitem">
+                    <a
+                      href="electronicServices.html"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                    >
+                      خدمات ألكترونية
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="dropdown" role="menuitem">
+                <a href="#" aria-expanded="false" aria-haspopup="true">
+                  وحدات <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-content" role="menu">
+                  <li role="menuitem">
+                    <a href="qualityAssuranceUnit.html"
+                      >وحدة ابتكار وريادة أعمال</a
+                    >
+                  </li>
+                  <li role="menuitem">
+                    <a href="traningUnit.html">وحدة تدريب ميداني</a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="graduationJopUnit.html">وحدة خريجين و توظيف</a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="qulityUnit.html">وحدة ضمان الجودة</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="dropdown" role="menuitem">
+                <a href="#" aria-expanded="false" aria-haspopup="true">
+                  خدمة المجتمع <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-content" role="menu">
+                  <li role="menuitem">
+                    <a href="executePlan.html"
+                      >الخطة التنفيذية السنوية</a
+                    >
+                  </li>
+                  <li role="menuitem">
+                    <a href="awarnessProgram.html">برامج التوعية وتنمية البيئة </a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="associatedEntities.html"
+                      >الكيانات المرتبطة بالمجتمع و البيئة</a
+                    >
+                  </li>
+                  <li role="menuitem">
+                    <a href="activitySocietyServices.html">أنشطة خدمة المجتمع والبيئة</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="dropdown" role="menuitem">
+                <a
+                  href="searchSection.html"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                >
+                  البحث و المؤتمرات
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <button
+            class="mobile-menu-btn"
+            id="mobileMenuBtn"
+            aria-label="فتح قائمة التنقل"
+          >
+            <span class="bars"><i class="fa-solid fa-bars"></i></span>
+          </button>
+        </div>
+        <nav
+          class="nav-mobile"
+          id="mobileNav"
+          aria-label="قائمة التنقل المحمول"
+        >
+          <button
+            class="close-btn"
+            id="closeMobileNav"
+            aria-label="إغلاق القائمة"
+          >
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <!-- ----------------------------------------------- -->
+          <ul class="mobile-main-menu">
+            <li class="menu-item"><a href="index.html">الصفحة الرئيسية</a></li>
+
+            <li class="menu-item has-dropdown">
+              <button
+                class="dropdown-toggle"
+                aria-expanded="false"
+                aria-controls="aboutSubMenu"
+              >
+                عن المعهد <i class="fas fa-chevron-down toggle-icon"></i>
+              </button>
+              <ul class="submenu" id="aboutSubMenu">
+                <li><a href="./structureModel.html">الهيكل التنظيمي</a></li>
+                <li><a href="leader.html">عميد المعهد</a></li>
+                <li><a href="listOfStuts.html">لائحة المعهد</a></li>
+                <li><a href="rateOfStatus.html">تقييم المعهد</a></li>
+                <li>
+                  <a href="selfStudy.html"
+                    >الدراسة الذاتية والخطة الإستراتيجية</a
+                  >
+                </li>
+                <li><a href="systemStydy.html"> نظام الدراسة </a></li>
+                <li>
+                  <a href="studentDirection.html"
+                    >قواعد توزيع الطلاب علي الأقسام</a
+                  >
+                </li>
+                <li><a href="functional.html">قرار المعادلة</a></li>
+                <li><a href="groups.html">أجتماعات</a></li>
+                <li><a href="active.html">فعاليات</a></li>
+                <li><a href="jops.html">أعلان وظائف</a></li>
+              </ul>
+            </li>
+
+            <li class="menu-item has-dropdown">
+              <button
+                class="dropdown-toggle"
+                aria-expanded="false"
+                aria-controls="sectionsSubMenu"
+              >
+                الأقسام <i class="fas fa-chevron-down toggle-icon"></i>
+              </button>
+              <ul class="submenu" id="sectionsSubMenu">
+                <li><a href="baisicScience.html">قسم العلوم الأساسية</a></li>
+                <li>
+                  <a href="chimecalSection.html">قسم الهندسة الكيميائية</a>
+                </li>
+                <li><a href="engineerSection.html">قسم الهندسة المدنية</a></li>
+                <li>
+                  <a href="electronicSection.html"
+                    >قسم هندسة الأتصالات و الإلكترونيات</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="menu-item has-dropdown">
+              <button
+                class="dropdown-toggle"
+                aria-expanded="false"
+                aria-controls="studentsSubMenu"
+              >
+                شئون الطلاب <i class="fas fa-chevron-down toggle-icon"></i>
+              </button>
+              <ul class="submenu" id="studentsSubMenu">
+                <li>
+                  <a href="studentCare.html"
+                    >الأرشاد الأكاديمي وريادة الأعمال</a
+                  >
+                </li>
+                <li><a href="enrollAcademic.html">التسجيل الاكاديمي</a></li>
+                <li><a href="supportAcademic.html">الدعم الأكاديمي</a></li>
+                <li><a href="studentTraining.html">تدريبات الطلاب</a></li>
+                <li>
+                  <a href="examDictionary.html">شئون الدراسة و الأمتحانات </a>
+                </li>
+                <li><a href="resultOfStudent.html">نتائج الطلاب</a></li>
+                <li><a href="studentServices.html">خدمات الطلاب</a></li>
+                <li>
+                  <a href="achievementScience.html">الأنجازات العلمية للطلاب</a>
+                </li>
+                <li><a href="electronicServices.html">خدمات ألكترونية</a></li>
+              </ul>
+            </li>
+
+            <li class="menu-item has-dropdown">
+              <button
+                class="dropdown-toggle"
+                aria-expanded="false"
+                aria-controls="unitsSubMenu"
+              >
+                الوحدات <i class="fas fa-chevron-down toggle-icon"></i>
+              </button>
+              <ul class="submenu" id="unitsSubMenu">
+                <li>
+                  <a href="qualityAssuranceUnit.html"
+                    >وحدة ابتكار وريادة أعمال</a
+                  >
+                </li>
+                <li><a href="traningUnit.html">وحدة تدريب ميداني</a></li>
+                <li>
+                  <a href="graduationJopUnit.html">وحدة خريجين و توظيف</a>
+                </li>
+                <li>
+                  <a href="qulityUnit.html">وحدة ضمان الجودة</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="menu-item has-dropdown">
+              <button
+                class="dropdown-toggle"
+                aria-expanded="false"
+                aria-controls="unitsSubMenu"
+              >
+                خدمات المجتمع<i class="fas fa-chevron-down toggle-icon"></i>
+              </button>
+              <ul class="submenu" id="unitsSubMenu">
+                <li>
+                  <a href="executePlan.html"
+                    >الخطة التنفيذية و السنوية</a
+                  >
+                </li>
+                <li>
+                  <a href="awarnessProgram.html">برامج التوعية و تنمية البيئة</a>
+                </li>
+                <li>
+                  <a href="associatedEntities.html"
+                    >الكيانات المرتبطة بالمجتمع و البيئة</a
+                  >
+                </li>
+                <li>
+                  <a href="activitySocietyServices.html">أنشطة خدمات المجتمع و البيئة</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="menu-item has-dropdown">
+              <button
+                class="dropdown-toggle"
+                aria-expanded="false"
+                aria-controls="unitsSubMenu"
+              >
+                <a href="searchSection.html" class="search"><h4>البحث و المؤتمرات</h4> </a>
+              </button>
+              <ul class="submenu" id="unitsSubMenu"></ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- end header -->
+
+    <main class="conference-page">
+      <!---------------------------------------- 2022 -------------------------------------------------->
+      <section class="hero">
+        <h1 class="animate-on-scroll">
+          المؤتمر العلمي السنوي لقسم العلوم الهندسة المدنية
+        </h1>
+        <p class="animate-on-scroll">للعام الجامعي: 2022-2023</p>
+        <p class="animate-on-scroll location-time">
+          تم عقد المؤتمر العلمي السنوي في: *6/03/2023* - الساعة **الواحدة
+          ظهرًا**
+        </p>
+      </section>
+      <!-- حضور و مشاركين -->
+      <section class="committee-members animate-on-scroll">
+        <h2 class="title-meet animate-on-scroll">الحضور والمشاركون</h2>
+        <div class="members-grid">
+          <div class="member-card animate-on-scroll">
+            <p><strong>1 - أ.د/ أوسام راجح:</strong> عميد المعهد</p>
+          </div>
+          <div class="member-card animate-on-scroll">
+            <p>
+              <strong>2 - أ.د/ خالد سمير:</strong> وكيل المعهد لشئون التعليم
+              والطلاب
+            </p>
+          </div>
+          <div class="member-card animate-on-scroll">
+            <p>
+              <strong>3 - أ.د. محمد الكيكي </strong> رئيس مجلس قسم الهندسة
+              المدنية
+            </p>
+          </div>
+          <div class="member-card animate-on-scroll">
+            <p>
+              <strong>4 - أ.م.د/ هند جادو:</strong> رئيس مجلس قسم الهندسة
+              المعمارية
+            </p>
+          </div>
+          <div class="member-card animate-on-scroll">
+            <p>
+              <strong>5 - د/ أميرة السنباطي :</strong> قائم بعمل رئيس مجلس قسم
+              الهندسة الإلكترونية والاتصالات
+            </p>
+          </div>
+          <div class="member-card animate-on-scroll">
+            <p>
+              <strong>6 - أ.م.د/ أمل بحيري:</strong> رئيس مجلس قسم العلوم
+              الأساسية
+            </p>
+          </div>
+          <div class="member-card animate-on-scroll">
+            <p>
+              <strong>7 - أ.م.د/ رمضان الكاتب:</strong> مدير وحدة ضمان الجودة
+              بالمعهد
+            </p>
+          </div>
+          <div class="member-card animate-on-scroll">
+            <p>
+              <strong
+                >8 - السادة أعضاء هيئة التدريس وأعضاء الهيئة المعاونة بقسم
+                الهندسة المدنية.</strong
+              >
+            </p>
+          </div>
+          <div class="member-card animate-on-scroll">
+            <p>
+              <strong
+                >9 - السادة أعضاء هيئة التدريس وأعضاء الهيئة المعاونة
+                بالمعهد.</strong
+              >
+            </p>
+          </div>
+          <div class="member-card animate-on-scroll">
+            <p><strong>10 - طلاب وخريجي قسم الهندسة المدنية.</strong></p>
+          </div>
+        </div>
+      </section>
+      <!-- جدول اعمال المؤتمر -->
+      <section class="agenda">
+        <h2 class="animate-on-scroll title-meet">جدول أعمال المؤتمر</h2>
+        <ol class="agenda-list">
+          <li class="animate-on-scroll">
+            <strong>إفتتاح المؤتمر:</strong> بالسلام الوطني.
+          </li>
+          <li>
+            <strong>ندوة:</strong>تلاوة عطرة من آيات الذكر الحكيم مع الطالب /
+            أحمد السوركي.
+          </li>
+          <li class="animate-on-scroll">
+            <strong>كلمة:</strong> إفتتاحية مع أ.د/ أوسامي راجح، عميد المعهد.
+          </li>
+          <li class="animate-on-scroll">
+            <strong>كلمة:</strong>
+            أ.د. محمد الكيكي - رئيس مجلس قسم الهندسة المدنية، والترحيب بالسادة
+            الحضور وعرض ملخص للنظم التدريسية الحالية وهما لائحتي الساعات
+            المعتمدة والفصول الدراسية وشرح سيادته المطلوب لإتمام العمل في تجهيز
+            اللائحة الدراسية الجديدة بنظام الساعات المعتمدة طبقاً لتعليمات
+            الوزارة وفتح باب المناقشة في هذه الموضوعات.
+          </li>
+          <li class="animate-on-scroll">
+            <strong>وتم عرض الموضوعات الأتية:</strong>
+          </li>
+        </ol>
+
+        <ul class="posters-list">
+          <li>
+            <strong> أولاً:</strong> عرض تقديمي للتعريف بقسم الهندسة المدنية مع
+            د. هاني حشيش.
+          </li>
+          <li>
+            <strong> ثانياً:</strong> عرض تقديمي بعنوان "منهجية تصميم نظام
+            معالجة مياة الصرف الصحي يتألف من خزان إيمهوف والأراضي الرطبة ذات
+            التدفق الجوفي - دراسة حالة واحة الداخلة مصر" مع أ.م.د محمد جبر.
+          </li>
+
+          <li>
+            <strong> ثالثاً:</strong> عرض تقديمي بعنوان "إستغلال المياة الجوفية
+            للصحراء الغربية والتحديات – دراسة حالة مشروع 1.5 مليون فدان" مع
+            أ.م.د محمد جبر.
+          </li>
+
+          <li>
+            <strong> رابعاً:</strong> محاضرة بعنوان "المهندس المتميز وسوق العمل"
+            مع ضيفة المؤتمر م. هدى سعد - مدير الإدارة الفنية بهيئة الأبنية
+            التعليمية بمحافظة دمياط، وقد تم تكريم سيادتها من الأستاذ الدكتور
+            عميد المعهد.
+          </li>
+
+          <li>
+            <strong> خامساً:</strong> عرض تقديمي لطلاب مشروع تخرج تخصص (هندسة
+            الأساسات) 2022/2023.
+          </li>
+
+          <li>
+            <strong> سادساً:</strong> عرض تقديمي لطلاب مشروع تخرج تخصص (الهندسة
+            الصحية) 2022/2023.
+          </li>
+
+          <li>
+            <strong> سابعاً:</strong> عرض تقديمي لرسالة ماجستير لأحد خريجي قسم
+            الهندسة المدنية بعنوان "معالجة مياة الصرف الزراعي بإستخدام نظام
+            الأراضي الرطبة العائمة" مع م. مادلين سالم.
+          </li>
+
+          <li>
+            <strong> ثامناً:</strong> محاضرة بعنوان "أساليب التخطيط في مشروعات
+            التشييد" مع د. حمدي عبدالعاطي.
+          </li>
+
+          <li>
+            <strong> تاسعاً:</strong> محاضرة بعنوان "الخرسانة المدعمة بالألياف"
+            مع د. نسرين العوادلي.
+          </li>
+        </ul>
+      </section>
+      <!-- توصيات -->
+      <section class="agenda">
+        <h2 class="animate-on-scroll title-meet">توصيات المؤتمر</h2>
+        <ul class="posters-list">
+          <li>
+            عمل لقاءات طلابية إضافية مع السادة أعضاء هيئة التدريس والسادة أعضاء
+            الهيئة المعاونة بصفه دورية على مدار العام الدراسي على أن تكون مرتين
+            كل فصل دراسي وذلك لعرض ودراسة المشكلات الأكاديمية للطلاب وإيجاد
+            الحلول المناسبة لها.
+          </li>
+          <li>
+            حث السادة أعضاء هيئة التدريس وأعضاء الهيئة المعاونة على المشاركة في
+            المؤتمرات العلمية المحلية أو الدولية في مجال التخصص سواء بالمشاركة
+            بأبحاث أو بوسترات أو الحضور.
+          </li>
+          <li>تحسين كفاءة المعامل والعمل على زيادة الأجهزة وتحديثها.</li>
+          <li>
+            العمل على زيادة الرحلات العلمية والزيارات الميدانية لزيادة تفاعل
+            الطلاب مع سوق العمل.
+          </li>
+          <li>
+            عمل بروتوكولات تعاون مع كليات الهندسة بالجامعات القريبة من المعهد
+            للإستفادة من الخبرات والإمكانيات الموجودة بها لخدمة العملية
+            التعليمية بالقسم سواء لدرجة البكالوريوس أو مرحلة الدراسات العليا.
+          </li>
+        </ul>
+      </section>
+
+      <!---------------------------------------- 2024 ------------------------------------------------->
+      <section class="hero">
+        <h1 class="animate-on-scroll">
+          المؤتمر العلمي السنوي لقسم العلوم الهندسة المدنية
+        </h1>
+        <p class="animate-on-scroll">للعام الجامعي: 2024-2025/</p>
+        <p class="animate-on-scroll location-time">
+          تم عقد المؤتمر العلمي السنوي في: *17/03/2025* - الساعة الواحدة ظهرًا
+        </p>
+      </section>
+
+      <section class="committee-members animate-on-scroll">
+        <h2 class="title-meet animate-on-scroll">الحضور والمشاركون</h2>
+        <div class="members-grid">
+          <div class="member-card animate-on-scroll">
+            <p><strong>1 - أ.د/ أوسام راجح:</strong> عميد المعهد</p>
+          </div>
+          <div class="member-card animate-on-scroll">
+            <p>
+              <strong>2 - أ.د/ خالد سمير:</strong> وكيل المعهد لشئون التعليم
+              والطلاب
+            </p>
+          </div>
+          <div class="member-card animate-on-scroll">
+            <p>
+              <strong>3 - أ.د/ محمد السيد جبر:</strong> رئيس مجلس قسم الهندسة
+              المدنية
+            </p>
+          </div>
+          <div class="member-card animate-on-scroll">
+            <p>
+              <strong>4 - أ.م.د/ هند جادو:</strong> رئيس مجلس قسم الهندسة
+              المعمارية
+            </p>
+          </div>
+          <div class="member-card animate-on-scroll">
+            <p>
+              <strong>5 - د/ أميرة السنباطي :</strong> قائم بعمل رئيس مجلس قسم
+              الهندسة الإلكترونية والاتصالات
+            </p>
+          </div>
+          <div class="member-card animate-on-scroll">
+            <p>
+              <strong>6 - أ.م.د/ أمل بحيري:</strong> رئيس مجلس قسم العلوم
+              الأساسية
+            </p>
+          </div>
+          <div class="member-card animate-on-scroll">
+            <p>
+              <strong>7 - أ.م.د/ رمضان الكاتب:</strong> مدير وحدة ضمان الجودة
+              بالمعهد
+            </p>
+          </div>
+          <div class="member-card animate-on-scroll">
+            <p>
+              <strong
+                >8 - السادة أعضاء هيئة التدريس وأعضاء الهيئة المعاونة بقسم
+                الهندسة المدنية.</strong
+              >
+            </p>
+          </div>
+          <div class="member-card animate-on-scroll">
+            <p>
+              <strong
+                >9 - السادة أعضاء هيئة التدريس وأعضاء الهيئة المعاونة
+                بالمعهد.</strong
+              >
+            </p>
+          </div>
+          <div class="member-card animate-on-scroll">
+            <p><strong>10 - طلاب وخريجي قسم الهندسة المدنية.</strong></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="agenda animate-on-scroll">
+        <h2 class="animate-on-scroll title-meet">جدول أعمال المؤتمر</h2>
+        <ol class="agenda-list">
+          <li><strong>إفتتاح المؤتمر:</strong> بالسلام الوطني.</li>
+          <li>
+            <strong>ندوة:</strong>تلاوة عطرة من آيات الذكر الحكيم مع الطالب /
+            أحمد السوركي.
+          </li>
+          <li>
+            <strong>كلمة:</strong> إفتتاحية مع أ.د/ أوسامي راجح، عميد المعهد.
+          </li>
+          <li>
+            <strong>كلمة:</strong> أ.د/ محمد السيد جبر رئيس مجلس قسم الهندسة
+            المدنية. رئيس مجلس قسم الهندسة المدنية، والترحيب بالسادة الحضور وعرض
+            ملخص للنظم التدريسية الحالية وهما لائحتي الساعات المعتمدة والفصول
+            الدراسية وشرح سيادته المطلوب لإتمام العمل في تجهيز اللائحة الدراسية
+            الجديدة بنظام الساعات المعتمدة طبقاً لتعليمات الوزارة وفتح باب
+            المناقشة في هذه الموضوعات.
+          </li>
+
+          <li class="animate-on-scroll">
+            <strong>وتم عرض الموضوعات الأتية:</strong>
+          </li>
+        </ol>
+
+        <ul class="posters-list">
+          <li>
+            <strong> أولاً:</strong>كلمة رئيس قسم الهندسه المدنية مع أ.د محمد
+            السيد جبر
+          </li>
+          <li>
+            <strong> ثانياً:</strong> عرض تقديمي يبرز أهمية قسم الهندسة المدنية
+            مع د هاني حشيش.
+          </li>
+
+          <li>
+            <strong> ثالثاً:</strong> تكريم السادة من أعضاء هيئة التدريس والهيئة
+            المعاونة الحاصلين على درجة الماجستير والدكتوراة والحاصلين على ترقيات
+            وكذلك تكريم الموظفين المتميزين بالقسم
+          </li>
+
+          <li>
+            <strong> رابعاً:</strong> عرض تقديمي لمشروعات تخرج عام 2023-2024.
+          </li>
+        </ul>
+      </section>
+
+      <section class="agenda">
+        <h2 class="animate-on-scroll title-meet">توصيات المؤتمر</h2>
+        <ul class="posters-list">
+          <li>
+            عمل لقاءات طلابية إضافية مع السادة أعضاء هيئة التدريس والسادة أعضاء
+            الهيئة المعاونة بصفه دورية على مدار العام الدراسي على أن تكون مرتين
+            كل فصل دراسي وذلك لعرض ودراسة المشكلات الأكاديمية للطلاب وإيجاد
+            الحلول المناسبة لها.
+          </li>
+          <li>
+            حث السادة أعضاء هيئة التدريس وأعضاء الهيئة المعاونة على المشاركة في
+            المؤتمرات العلمية المحلية أو الدولية في مجال التخصص سواء بالمشاركة
+            بأبحاث أو بوسترات أو الحضور.
+          </li>
+          <li>تحسين كفاءة المعامل والعمل على زيادة الأجهزة وتحديثها. .</li>
+          <li>
+            العمل على زيادة الرحلات العلمية والزيارات الميدانية لزيادة تفاعل
+            الطلاب مع سوق العمل.
+          </li>
+          <li>
+            عمل بروتوكولات تعاون مع كليات الهندسة بالجامعات القريبة من المعهد
+            للإستفادة من الخبرات والإمكانيات الموجودة بها لخدمة العملية
+            التعليمية بالقسم سواء لدرجة البكالوريوس أو مرحلة الدراسات العليا.
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footre-logo">
+            <div class="image-foot">
+              <img src="./assets/image/ndeti-logo.png" alt="image footer" />
+              <h2>المعهد العالي للهندسة و التكنولوجيا بدمياط الجديدة</h2>
+            </div>
+          </div>
+
+          <div class="footer-column footer-links animate-on-scroll">
+            <h3 class="footer-title">عن المعهد</h3>
+            <ul class="footer-list">
+              <li role="menuitem">
+                <a href="./structureModel.html">الهيكل التنظيمي</a>
+              </li>
+              <li role="menuitem"><a href="leader.html">عميد المعهد</a></li>
+              <li role="menuitem">
+                <a href="listOfStuts.html">لائحة المعهد</a>
+              </li>
+              <li role="menuitem">
+                <a href="rateOfStatus">تقييم المعهد</a>
+              </li>
+              <li role="menuitem">
+                <a href="selfStudy.html">الدراسة الذاتيةوالخطةالأستراتيجية</a>
+              </li>
+              <li role="menuitem">
+                <a href="systemStydy.html">نظام الدراسة</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-column footer-links animate-on-scroll">
+            <h3 class="footer-title">أقسام المعهد</h3>
+            <ul class="footer-list">
+              <li><a href="baisicScience.html">قسم العلوم الأساسية</a></li>
+              <li><a href="engineerSection.html">قسم الهندسة المدنية</a></li>
+              <li><a href="chimecalSection.html">قسم الهندسة الكيميائية</a></li>
+              <li>
+                <a href="electronicSection.html">قسم الاتصالات والالكترونيات</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-column footer-links animate-on-scroll">
+            <h3 class="footer-title">وحدات المعهد</h3>
+            <ul class="footer-list">
+              <li>
+                <a href="qualityAssuranceUnit.html"
+                  >وحدة أبتكار و ريادة أعمال
+                </a>
+              </li>
+              <li><a href="traningUnit.html">وحدة تدريب ميداني </a></li>
+              <li><a href="graduationJopUnit.html">وحدة خريجين وتوظيف</a></li>
+              <li>
+                <a href="intrepenshipUnitImage.html">وحدة ضمان الجودة</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-column footer-contact animate-on-scroll">
+            <h3 class="footer-title">تواصل معنا</h3>
+            <ul class="contact-list">
+              <li class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span class="contact-text"
+                  >دمياط الجديد- المنطقة المركزية - الهيكلة الثانية - أمام الحي
+                  الرابع</span
+                >
+              </li>
+              <li class="contact-item contact-phone">
+                <i class="fas fa-phone-alt"></i>
+                <div class="phone-numbers">
+                  <span>057-2413235</span>
+                  <span>01007400202</span>
+                  <span>057-2407520</span>
+                  <span>057-2408620</span>
+                </div>
+              </li>
+              <li class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:NDETI.CONTACT@GMAIL.COM" class="contact-text"
+                  >NDETI.CONTACT@GMAIL.COM</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom-bar animate-on-scroll">
+          <div class="social-icons">
+            <a
+              href="https://www.facebook.com/share/1ExPKwKdR4/"
+              aria-label="فيسبوك"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="لينكد أن"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+
+            <a href="#" aria-label="واتس أب"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+            <a href="https://share.google/x50gQOkCaPNEpgLgC" aria-label=" جوحل"
+              ><i class="fa-brands fa-google"></i
+            ></a>
+          </div>
+
+          <p class="copyright">
+            Copyright 2016 ndeti | All Rights Reserved | Designed by Mssoom
+          </p>
+          <a href="#top" class="scroll-to-top" aria-label="العودة لأعلى الصفحة">
+            <i class="fas fa-angle-up"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/javaScript/responsive.js"></script>
+    <script src="assets/javaScript/meeting.js"></script>
+  </body>
+</html>

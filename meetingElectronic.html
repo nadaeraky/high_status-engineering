@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>المؤتمر العلمي السنوي</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/CSS/searchSection/meetingSearch.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+   <!-- header -->
+    <header class="header">
+      <div class="container">
+        <div class="nav-wrapper">
+          <div class="logo">
+            <a href="index.html" aria-label="العودة للصفحة الرئيسية">
+              <img
+                src="assets/image/ndeti-logo.png"
+                alt="شعار المعهد العالي للهندسة والتكنولوجيا"
+              />
+              <span class="logo-text"
+                >المعهد العالي للهندسة<br />
+                والتكنولوجيا بدمياط الجديدة
+              </span>
+            </a>
+          </div>
+
+          <nav class="nav-desktop" aria-label="قائمة التصفح الرئيسية">
+            <ul class="main-menu" role="menu">
+              <li role="menuitem"><a href="index.html">الصفحة الرئيسية</a></li>
+
+              <li class="dropdown" role="menuitem">
+                <a href="index.html" aria-expanded="false" aria-haspopup="true">
+                  عن المعهد <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-content" role="menu">
+                  <li role="menuitem">
+                    <a href="./structureModel.html">الهيكل التنظيمي</a>
+                  </li>
+                  <li role="menuitem"><a href="leader.html">عميد المعهد</a></li>
+                  <li role="menuitem">
+                    <a href="listOfStuts.html">لائحة المعهد</a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="rateOfStatus.html">تقييم المعهد</a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="selfStudy.html"
+                      >الدراسة الذاتية والخطة الأستراتيجية</a
+                    >
+                  </li>
+                  <li role="menuitem">
+                    <a href="systemStydy.html">نظام الدراسة</a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="studentDirection.html"
+                      >قواعد توزيع الطلاب علي التخصصات</a
+                    >
+                  </li>
+
+                  <li role="menuitem">
+                    <a href="functional.html">قرار المعادلة</a>
+                  </li>
+                  <li role="menuitem"><a href="groups.html">أجتماعات</a></li>
+                  <li role="menuitem"><a href="active.html">فعاليات</a></li>
+                  <li role="menuitem"><a href="jops.html">أعلان وظائف</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown" role="menuitem">
+                <a href="#" aria-expanded="false" aria-haspopup="true">
+                  الأقسام العلمية <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-content" role="menu">
+                  <li role="menuitem">
+                    <a href="baisicScience.html">قسم العلوم الأساسيه</a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="engineerSection.html">قسم الهندسة المدنية</a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="chimecalSection.html">قسم الهندسة الكيميائية</a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="electronicSection.html"
+                      >قسم هندسة الاتصالات و الألكترونيات</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="dropdown" role="menuitem">
+                <a href="#" aria-expanded="false" aria-haspopup="true">
+                  شئون الطلاب <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-content" role="menu">
+                  <li role="menuitem">
+                    <a href="studentCare.html"
+                      >الأرشاد الأكاديمي والريادة العلمية</a
+                    >
+                  </li>
+                  <li role="menuitem">
+                    <a href="enrollAcademic.html">التسجيل الاكاديمي</a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="supportAcademic.html">الدعم الأكاديمي</a>
+                  </li>
+
+                  <li class="sub-dropdown" role="menuitem">
+                    <a
+                      href="studentTraining.html"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                    >
+                      تدريبات الطلاب
+                    </a>
+                  </li>
+
+                  <li class="sub-dropdown" role="menuitem">
+                    <a
+                      href="examDictionary.html"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                    >
+                      شئون الدراسة و الأمتحانات
+                    </a>
+                    <ul class="sub-dropdown-content" role="menu"></ul>
+                  </li>
+
+                  <li class="sub-dropdown" role="menuitem">
+                    <a
+                      href="resultOfStudent.html"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                    >
+                      نتائج طلاب
+                    </a>
+                  </li>
+
+                  <li class="sub-dropdown" role="menuitem">
+                    <a
+                      href="studentServices.html"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                    >
+                      خدمات الطلاب
+                    </a>
+                  </li>
+
+                  <li class="sub-dropdown" role="menuitem">
+                    <a
+                      href="achievementScience.html"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                    >
+                      الانجازات العلمية للطلبة
+                    </a>
+                  </li>
+
+                  <li class="sub-dropdown" role="menuitem">
+                    <a
+                      href="electronicServices.html"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                    >
+                      خدمات ألكترونية
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="dropdown" role="menuitem">
+                <a href="#" aria-expanded="false" aria-haspopup="true">
+                  وحدات <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-content" role="menu">
+                  <li role="menuitem">
+                    <a href="qualityAssuranceUnit.html"
+                      >وحدة ابتكار وريادة أعمال</a
+                    >
+                  </li>
+                  <li role="menuitem">
+                    <a href="traningUnit.html">وحدة تدريب ميداني</a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="graduationJopUnit.html">وحدة خريجين و توظيف</a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="qulityUnit.html">وحدة ضمان الجودة</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="dropdown" role="menuitem">
+                <a href="#" aria-expanded="false" aria-haspopup="true">
+                  خدمة المجتمع <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-content" role="menu">
+                  <li role="menuitem">
+                    <a href="executePlan.html"
+                      >الخطة التنفيذية السنوية</a
+                    >
+                  </li>
+                  <li role="menuitem">
+                    <a href="awarnessProgram.html">برامج التوعية وتنمية البيئة </a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="associatedEntities.html"
+                      >الكيانات المرتبطة بالمجتمع و البيئة</a
+                    >
+                  </li>
+                  <li role="menuitem">
+                    <a href="activitySocietyServices.html">أنشطة خدمة المجتمع والبيئة</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="dropdown" role="menuitem">
+                <a
+                  href="searchSection.html"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                >
+                  البحث و المؤتمرات
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <button
+            class="mobile-menu-btn"
+            id="mobileMenuBtn"
+            aria-label="فتح قائمة التنقل"
+          >
+            <span class="bars"><i class="fa-solid fa-bars"></i></span>
+          </button>
+        </div>
+        <nav
+          class="nav-mobile"
+          id="mobileNav"
+          aria-label="قائمة التنقل المحمول"
+        >
+          <button
+            class="close-btn"
+            id="closeMobileNav"
+            aria-label="إغلاق القائمة"
+          >
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <!-- ----------------------------------------------- -->
+          <ul class="mobile-main-menu">
+            <li class="menu-item"><a href="index.html">الصفحة الرئيسية</a></li>
+
+            <li class="menu-item has-dropdown">
+              <button
+                class="dropdown-toggle"
+                aria-expanded="false"
+                aria-controls="aboutSubMenu"
+              >
+                عن المعهد <i class="fas fa-chevron-down toggle-icon"></i>
+              </button>
+              <ul class="submenu" id="aboutSubMenu">
+                <li><a href="./structureModel.html">الهيكل التنظيمي</a></li>
+                <li><a href="leader.html">عميد المعهد</a></li>
+                <li><a href="listOfStuts.html">لائحة المعهد</a></li>
+                <li><a href="rateOfStatus.html">تقييم المعهد</a></li>
+                <li>
+                  <a href="selfStudy.html"
+                    >الدراسة الذاتية والخطة الإستراتيجية</a
+                  >
+                </li>
+                <li><a href="systemStydy.html"> نظام الدراسة </a></li>
+                <li>
+                  <a href="studentDirection.html"
+                    >قواعد توزيع الطلاب علي الأقسام</a
+                  >
+                </li>
+                <li><a href="functional.html">قرار المعادلة</a></li>
+                <li><a href="groups.html">أجتماعات</a></li>
+                <li><a href="active.html">فعاليات</a></li>
+                <li><a href="jops.html">أعلان وظائف</a></li>
+              </ul>
+            </li>
+
+            <li class="menu-item has-dropdown">
+              <button
+                class="dropdown-toggle"
+                aria-expanded="false"
+                aria-controls="sectionsSubMenu"
+              >
+                الأقسام <i class="fas fa-chevron-down toggle-icon"></i>
+              </button>
+              <ul class="submenu" id="sectionsSubMenu">
+                <li><a href="baisicScience.html">قسم العلوم الأساسية</a></li>
+                <li>
+                  <a href="chimecalSection.html">قسم الهندسة الكيميائية</a>
+                </li>
+                <li><a href="engineerSection.html">قسم الهندسة المدنية</a></li>
+                <li>
+                  <a href="electronicSection.html"
+                    >قسم هندسة الأتصالات و الإلكترونيات</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="menu-item has-dropdown">
+              <button
+                class="dropdown-toggle"
+                aria-expanded="false"
+                aria-controls="studentsSubMenu"
+              >
+                شئون الطلاب <i class="fas fa-chevron-down toggle-icon"></i>
+              </button>
+              <ul class="submenu" id="studentsSubMenu">
+                <li>
+                  <a href="studentCare.html"
+                    >الأرشاد الأكاديمي وريادة الأعمال</a
+                  >
+                </li>
+                <li><a href="enrollAcademic.html">التسجيل الاكاديمي</a></li>
+                <li><a href="supportAcademic.html">الدعم الأكاديمي</a></li>
+                <li><a href="studentTraining.html">تدريبات الطلاب</a></li>
+                <li>
+                  <a href="examDictionary.html">شئون الدراسة و الأمتحانات </a>
+                </li>
+                <li><a href="resultOfStudent.html">نتائج الطلاب</a></li>
+                <li><a href="studentServices.html">خدمات الطلاب</a></li>
+                <li>
+                  <a href="achievementScience.html">الأنجازات العلمية للطلاب</a>
+                </li>
+                <li><a href="electronicServices.html">خدمات ألكترونية</a></li>
+              </ul>
+            </li>
+
+            <li class="menu-item has-dropdown">
+              <button
+                class="dropdown-toggle"
+                aria-expanded="false"
+                aria-controls="unitsSubMenu"
+              >
+                الوحدات <i class="fas fa-chevron-down toggle-icon"></i>
+              </button>
+              <ul class="submenu" id="unitsSubMenu">
+                <li>
+                  <a href="qualityAssuranceUnit.html"
+                    >وحدة ابتكار وريادة أعمال</a
+                  >
+                </li>
+                <li><a href="traningUnit.html">وحدة تدريب ميداني</a></li>
+                <li>
+                  <a href="graduationJopUnit.html">وحدة خريجين و توظيف</a>
+                </li>
+                <li>
+                  <a href="qulityUnit.html">وحدة ضمان الجودة</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="menu-item has-dropdown">
+              <button
+                class="dropdown-toggle"
+                aria-expanded="false"
+                aria-controls="unitsSubMenu"
+              >
+                خدمات المجتمع<i class="fas fa-chevron-down toggle-icon"></i>
+              </button>
+              <ul class="submenu" id="unitsSubMenu">
+                <li>
+                  <a href="executePlan.html"
+                    >الخطة التنفيذية و السنوية</a
+                  >
+                </li>
+                <li>
+                  <a href="awarnessProgram.html">برامج التوعية و تنمية البيئة</a>
+                </li>
+                <li>
+                  <a href="associatedEntities.html"
+                    >الكيانات المرتبطة بالمجتمع و البيئة</a
+                  >
+                </li>
+                <li>
+                  <a href="activitySocietyServices.html">أنشطة خدمات المجتمع و البيئة</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="menu-item has-dropdown">
+              <button
+                class="dropdown-toggle"
+                aria-expanded="false"
+                aria-controls="unitsSubMenu"
+              >
+                <a href="searchSection.html" class="search"><h4>البحث و المؤتمرات</h4> </a>
+              </button>
+              <ul class="submenu" id="unitsSubMenu"></ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- end header -->
+
+    <main>
+      <section class="gallery-grid-section animate-on-scroll">
+        <h2 class="section-TXTT animate-on-scroll">
+           ألبوم الفعاليات والندوات
+        </h2>
+        <p class="animate-on-scroll"> 
+
+مشاركة المعهد في الملتقي البحثي الأول بالتعاون مع المؤتمر الدولى الثالث للاتصالات ITC-EGYPT 2023 وشركة تكنوسبيس بعنوان "التكامل بين المخرجات البحثية ومتطلبات التنمية الشاملة للمجتمع" والمقام بمعهد بحوث الإلكترونيات 2023-9-12. 
+
+وقد أبدى أعضاء لجنة التحكيم إعجابهم بفكرة المشروع المقدم من فريق المعهد العالي للهندسة والتكنولوجيا بدمياط الجديدة وضرورة دمجه ودعمه في الصناعة. 
+
+خالص الشكر والتقدير لفريق عمل المشروع
+
+ د. أميرة عبدالمقصود السنباطي - مشرف المشروع.
+ م. أمير سلامة - المشرف المعملي على المشروع.
+ الطالبة/ حنين صيام.
+ الطالبة/ هالة رمضان.</p>
+        <div class="gallery-grid animate-on-scroll">
+
+          <div class="grid-item animate-on-scroll">
+            <img src="assets/image/electron1.jpg" alt="فعالية 1" />
+            <div class="item-info">
+              <h3>معرض المشاريع المقام في معهد بحوث الألكترونيات ITC-Egypt </h3>
+              <p>تاريخ النشر: 2023</p>
+            </div>
+          </div>
+
+          <div class="grid-item animate-on-scroll">
+            <img src="assets/image/electron2.jpg" alt="فعالية 2" />
+            <div class="item-info">
+               <h3>معرض المشاريع المقام في معهد بحوث الألكترونيات ITC-Egypt </h3>
+              <p>تاريخ النشر: 2023</p>
+            </div>
+          </div>
+
+          <div class="grid-item animate-on-scroll">
+            <img src="assets/image/electron3.jpg" alt="فعالية 3" />
+            <div class="item-info">
+                <h3>معرض المشاريع المقام في معهد بحوث الألكترونيات ITC-Egypt </h3>
+              <p>تاريخ النشر: 2023</p>
+            </div>
+          </div>
+
+          <div class="grid-item animate-on-scroll">
+            <img src="assets/image/electron4.jpg" alt="فعالية 5" />
+            <div class="item-info">
+              <h3>معرض المشاريع المقام في معهد بحوث الألكترونيات ITC-Egypt </h3>
+              <p>تاريخ النشر: 2023</p>
+            </div>
+          </div>
+          
+          <div class="grid-item animate-on-scroll">
+            <img src="assets/image/electron6.jpg" alt="فعالية 2" />
+            <div class="item-info">
+                <h3>معرض المشاريع المقام في معهد بحوث الألكترونيات ITC-Egypt </h3>
+              <p>تاريخ النشر: 2023</p>
+            </div>
+          </div>
+          
+          <div class="grid-item animate-on-scroll">
+            <img src="assets/image/electron7.jpg" alt="فعالية 3" />
+            <div class="item-info">
+                <h3>معرض المشاريع المقام في معهد بحوث الألكترونيات ITC-Egypt </h3>
+              <p>تاريخ النشر: 2023</p>
+            </div>
+          </div>
+
+          
+          <div class="grid-item animate-on-scroll">
+            <img src="assets/image/electron8.jpg" alt="فعالية 3" />
+            <div class="item-info">
+                <h3>معرض المشاريع المقام في معهد بحوث الألكترونيات ITC-Egypt </h3>
+              <p>تاريخ النشر: 2023</p>
+            </div>
+          </div>
+
+          <div class="grid-item animate-on-scroll">
+            <img src="assets/image/electron9.jpg" alt="فعالية 3" />
+            <div class="item-info">
+               <h3>معرض المشاريع المقام في معهد بحوث الألكترونيات ITC-Egypt </h3>
+              <p>تاريخ النشر: 2023</p>
+            </div>
+          </div>
+          </div>
+
+          </div>
+        </div>
+      </section>
+      <section class="gallery-grid-section animate-on-scroll">
+        <h2 class="section-TXTT animate-on-scroll">
+المؤتمر العلمى  لقسم الاتصالات            </h2>
+<p> 
+
+على هامش فعاليات المؤتمر العلمى السنوي لقسم هندسة الاتصالات والإلكترونيات العام الجامعى 2023-2024محاضرة عن تكنولوجيا الاتصالات المحمولة (25 فبراير ٢٠٢٤)
+
+بحضور كل من
+
+مدير إدارة صيانة أبراج وهوائيات مدن القناة وسيناء والبحر الأحمر
+د ابراهيم الشربيني عبدالمجيد  مدير إدارة مراكز التدريب بالزقازيق والإسماعيلية
+
+أ عبد العظيم مصطفى  أخصائي تسويق البرامج التدريبية بقطاع التدريب والتطوير</p>
+      
+        <div class="gallery-grid animate-on-scroll">
+
+       
+
+
+
+          <div class="grid-item animate-on-scroll">
+            <img src="assets/image/electron202310.jpeg" alt="فعالية 4" />
+            <div class="item-info">
+<h3> المؤتمر العلمى السنوي لقسم هندسة الاتصالات والإلكترونيات</h3>
+              <p>تاريخ النشر: 2023-2024</p>
+            </div>
+          </div>
+
+          <div class="grid-item animate-on-scroll">
+            <img src="assets/image/electron20238.jpeg" alt="فعالية 1" />
+            <div class="item-info">
+<h3> المؤتمر العلمى السنوي لقسم هندسة الاتصالات والإلكترونيات</h3>
+              <p>تاريخ النشر: 2023-2024</p>
+            </div>
+          </div>
+
+
+
+          <div class="grid-item animate-on-scroll">
+            <img src="assets/image/electron20231.jpeg" alt="فعالية 4" />
+            <div class="item-info">
+<h3> المؤتمر العلمى السنوي لقسم هندسة الاتصالات والإلكترونيات</h3>
+              <p>تاريخ النشر: 2023-2024</p>
+            </div>
+          </div>
+
+          <div class="grid-item animate-on-scroll">
+            <img src="assets/image/electron20232.jpeg" alt="فعالية 5" />
+            <div class="item-info">
+<h3> المؤتمر العلمى السنوي لقسم هندسة الاتصالات والإلكترونيات</h3>
+              <p>تاريخ النشر: 2023-2024</p>
+            </div>
+          </div>
+
+
+
+          <div class="grid-item animate-on-scroll">
+            <img src="assets/image/electron20234.jpeg" alt="فعالية 2" />
+            <div class="item-info">
+<h3> المؤتمر العلمى السنوي لقسم هندسة الاتصالات والإلكترونيات</h3>
+              <p>تاريخ النشر: 2023-2024</p>
+            </div>
+          </div>
+
+          <div class="grid-item animate-on-scroll">
+            <img src="assets/image/electron20235.jpeg" alt="فعالية 3" />
+            <div class="item-info">
+<h3> المؤتمر العلمى السنوي لقسم هندسة الاتصالات والإلكترونيات</h3>
+              <p>تاريخ النشر: 2023-2024</p>
+            </div>
+          </div>
+
+          <div class="grid-item animate-on-scroll">
+            <img src="assets/image/electron20236.jpeg" alt="فعالية 4" />
+            <div class="item-info">
+<h3> المؤتمر العلمى السنوي لقسم هندسة الاتصالات والإلكترونيات</h3>
+              <p>تاريخ النشر: 2023-2024</p>
+            </div>
+          </div>
+
+          <div class="grid-item animate-on-scroll">
+            <img src="assets/image/electron20237.jpeg" alt="فعالية 5" />
+            <div class="item-info">
+<h3> المؤتمر العلمى السنوي لقسم هندسة الاتصالات والإلكترونيات</h3>
+              <p>تاريخ النشر: 2023-2024</p>
+            </div>
+          </div>
+
+         
+          </div>
+
+          </div>
+        </div>
+      </section> 
+      <section class="gallery-grid-section animate-on-scroll">
+        <h2 class="section-TXTT animate-on-scroll"> بحضور الأفاضل
+من الشركة المصرية للاتصالات وى .        </h2>
+
+      
+        <div class="gallery-grid animate-on-scroll">
+
+       
+
+
+
+          <div class="grid-item animate-on-scroll">
+            <img src="assets/image/we1.jpeg" alt="فعالية 4" />
+            <div class="item-info">
+<h3> المؤتمر العلمى السنوي لقسم هندسة الاتصالات والإلكترونيات<strong>من شركة WE</strong></h3>
+              <p>تاريخ النشر: 2023-2024</p>
+            </div>
+          </div>
+
+          <div class="grid-item animate-on-scroll">
+            <img src="assets/image/we2.jpeg" alt="فعالية 1" />
+            <div class="item-info">
+<h3> المؤتمر العلمى السنوي لقسم هندسة الاتصالات والإلكترونيات<strong>من شركة WE</strong></h3>
+              <p>تاريخ النشر: 2023-2024</p>
+            </div>
+          </div>
+
+
+
+          <div class="grid-item animate-on-scroll">
+            <img src="assets/image/we3.jpeg" alt="فعالية 4" />
+            <div class="item-info">
+<h3> المؤتمر العلمى السنوي لقسم هندسة الاتصالات والإلكترونيات<strong>من شركة WE</strong></h3>
+              <p>تاريخ النشر: 2023-2024</p>
+            </div>
+          </div>
+
+          <div class="grid-item animate-on-scroll">
+            <img src="assets/image/we4.jpeg" alt="فعالية 5" />
+            <div class="item-info">
+<h3> المؤتمر العلمى السنوي لقسم هندسة الاتصالات والإلكترونيات<strong>من شركة WE</strong></h3>
+              <p>تاريخ النشر: 2023-2024</p>
+            </div>
+          </div>
+
+
+
+          <div class="grid-item animate-on-scroll">
+            <img src="assets/image/we5.jpeg" alt="فعالية 2" />
+            <div class="item-info">
+<h3> المؤتمر العلمى السنوي لقسم هندسة الاتصالات والإلكترونيات<strong>من شركة WE</strong></h3>
+              <p>تاريخ النشر: 2023-2024</p>
+            </div>
+          </div>
+
+          <div class="grid-item animate-on-scroll">
+            <img src="assets/image/we6.jpeg" alt="فعالية 3" />
+            <div class="item-info">
+<h3> المؤتمر العلمى السنوي لقسم هندسة الاتصالات والإلكترونيات<strong>من شركة WE</strong></h3>
+              <p>تاريخ النشر: 2023-2024</p>
+            </div>
+          </div>
+
+          <div class="grid-item animate-on-scroll">
+            <img src="assets/image/we7.jpeg" alt="فعالية 4" />
+            <div class="item-info">
+<h3> المؤتمر العلمى السنوي لقسم هندسة الاتصالات والإلكترونيات<strong>من شركة WE</strong></h3>
+              <p>تاريخ النشر: 2023-2024</p>
+            </div>
+          </div>
+
+          <div class="grid-item animate-on-scroll">
+            <img src="assets/image/we8.jpeg" alt="فعالية 5" />
+            <div class="item-info">
+<h3> المؤتمر العلمى السنوي لقسم هندسة الاتصالات والإلكترونيات<strong>من شركة WE</strong></h3>
+              <p>تاريخ النشر: 2023-2024</p>
+            </div>
+          </div>
+          </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footre-logo">
+            <div class="image-foot">
+              <img src="./assets/image/ndeti-logo.png" alt="image footer" />
+              <h2>المعهد العالي للهندسة و التكنولوجيا بدمياط الجديدة</h2>
+            </div>
+          </div>
+
+          <div class="footer-column footer-links">
+            <h3 class="footer-title">عن المعهد</h3>
+            <ul class="footer-list">
+              <li role="menuitem">
+                <a href="./structureModel.html">الهيكل التنظيمي</a>
+              </li>
+              <li role="menuitem"><a href="leader.html">عميد المعهد</a></li>
+              <li role="menuitem">
+                <a href="listOfStuts.html">لائحة المعهد</a>
+              </li>
+              <li role="menuitem">
+                <a href="rateOfStatus">تقييم المعهد</a>
+              </li>
+              <li role="menuitem">
+                <a href="selfStudy.html">الدراسة الذاتيةوالخطةالأستراتيجية</a>
+              </li>
+              <li role="menuitem">
+                <a href="systemStydy.html">نظام الدراسة</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-column footer-links">
+            <h3 class="footer-title">أقسام المعهد</h3>
+            <ul class="footer-list">
+              <li><a href="baisicScience.html">قسم العلوم الأساسية</a></li>
+              <li><a href="engineerSection.html">قسم الهندسة المدنية</a></li>
+              <li><a href="chimecalSection.html">قسم الهندسة الكيميائية</a></li>
+              <li>
+                <a href="electronicSection.html">قسم الاتصالات والالكترونيات</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-column footer-links">
+            <h3 class="footer-title">وحدات المعهد</h3>
+            <ul class="footer-list">
+              <li>
+                <a href="qualityAssuranceUnit.html"
+                  >وحدة أبتكار و ريادة أعمال
+                </a>
+              </li>
+              <li><a href="traningUnit.html">وحدة تدريب ميداني </a></li>
+              <li><a href="graduationJopUnit.html">وحدة خريجين وتوظيف</a></li>
+              <li>
+                <a href="intrepenshipUnitImage.html">وحدة ضمان الجودة</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-column footer-contact">
+            <h3 class="footer-title">تواصل معنا</h3>
+            <ul class="contact-list">
+              <li class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span class="contact-text"
+                  >دمياط الجديد- المنطقة المركزية - الهيكلة الثانية - أمام الحي
+                  الرابع</span
+                >
+              </li>
+              <li class="contact-item contact-phone">
+                <i class="fas fa-phone-alt"></i>
+                <div class="phone-numbers">
+                  <span>057-2413235</span>
+                  <span>01007400202</span>
+                  <span>057-2407520</span>
+                  <span>057-2408620</span>
+                </div>
+              </li>
+              <li class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:NDETI.CONTACT@GMAIL.COM" class="contact-text"
+                  >NDETI.CONTACT@GMAIL.COM</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom-bar ">
+          <div class="social-icons">
+            <a
+              href="https://www.facebook.com/share/1ExPKwKdR4/"
+              aria-label="فيسبوك"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="لينكد أن"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+
+            <a href="#" aria-label="واتس أب"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+            <a href="https://share.google/x50gQOkCaPNEpgLgC" aria-label=" جوحل"
+              ><i class="fa-brands fa-google"></i
+            ></a>
+          </div>
+
+          <p class="copyright">
+            Copyright 2016 ndeti | All Rights Reserved | Designed by Mssoom
+          </p>
+          <a href="#top" class="scroll-to-top" aria-label="العودة لأعلى الصفحة">
+            <i class="fas fa-angle-up"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/javaScript/responsive.js"></script>
+    <Script src="assets/javaScript/meeting.js"></Script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  </body>
+</html>

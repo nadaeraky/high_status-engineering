@@ -34,7 +34,7 @@ main {
 
 .content-section {
   background-color: white;
-  padding: var(--spacing-large);
+  padding: 40px;
   margin-bottom: var(--spacing-large);
   border-radius: 8px;
   border: 1px solid var(--border-color);

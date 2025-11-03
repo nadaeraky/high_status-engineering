@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>نتائج الطلاب</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/CSS/studentCare/examDirection.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+   <!-- header -->
+    <header class="header">
+      <div class="container">
+        <div class="nav-wrapper">
+          <div class="logo">
+            <a href="index.html" aria-label="العودة للصفحة الرئيسية">
+              <img
+                src="assets/image/ndeti-logo.png"
+                alt="شعار المعهد العالي للهندسة والتكنولوجيا"
+              />
+              <span class="logo-text"
+                >المعهد العالي للهندسة<br />
+                والتكنولوجيا بدمياط الجديدة
+              </span>
+            </a>
+          </div>
+
+          <nav class="nav-desktop" aria-label="قائمة التصفح الرئيسية">
+            <ul class="main-menu" role="menu">
+              <li role="menuitem"><a href="index.html">الصفحة الرئيسية</a></li>
+
+              <li class="dropdown" role="menuitem">
+                <a href="index.html" aria-expanded="false" aria-haspopup="true">
+                  عن المعهد <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-content" role="menu">
+                  <li role="menuitem">
+                    <a href="./structureModel.html">الهيكل التنظيمي</a>
+                  </li>
+                  <li role="menuitem"><a href="leader.html">عميد المعهد</a></li>
+                  <li role="menuitem">
+                    <a href="listOfStuts.html">لائحة المعهد</a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="rateOfStatus.html">تقييم المعهد</a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="selfStudy.html"
+                      >الدراسة الذاتية والخطة الأستراتيجية</a
+                    >
+                  </li>
+                  <li role="menuitem">
+                    <a href="systemStydy.html">نظام الدراسة</a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="studentDirection.html"
+                      >قواعد توزيع الطلاب علي التخصصات</a
+                    >
+                  </li>
+
+                  <li role="menuitem">
+                    <a href="functional.html">قرار المعادلة</a>
+                  </li>
+                  <li role="menuitem"><a href="groups.html">أجتماعات</a></li>
+                  <li role="menuitem"><a href="active.html">فعاليات</a></li>
+                  <li role="menuitem"><a href="jops.html">أعلان وظائف</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown" role="menuitem">
+                <a href="#" aria-expanded="false" aria-haspopup="true">
+                  الأقسام العلمية <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-content" role="menu">
+                  <li role="menuitem">
+                    <a href="baisicScience.html">قسم العلوم الأساسيه</a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="engineerSection.html">قسم الهندسة المدنية</a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="chimecalSection.html">قسم الهندسة الكيميائية</a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="electronicSection.html"
+                      >قسم هندسة الاتصالات و الألكترونيات</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="dropdown" role="menuitem">
+                <a href="#" aria-expanded="false" aria-haspopup="true">
+                  شئون الطلاب <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-content" role="menu">
+                  <li role="menuitem">
+                    <a href="studentCare.html"
+                      >الأرشاد الأكاديمي والريادة العلمية</a
+                    >
+                  </li>
+                  <li role="menuitem">
+                    <a href="enrollAcademic.html">التسجيل الاكاديمي</a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="supportAcademic.html">الدعم الأكاديمي</a>
+                  </li>
+
+                  <li class="sub-dropdown" role="menuitem">
+                    <a
+                      href="studentTraining.html"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                    >
+                      تدريبات الطلاب
+                    </a>
+                  </li>
+
+                  <li class="sub-dropdown" role="menuitem">
+                    <a
+                      href="examDictionary.html"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                    >
+                      شئون الدراسة و الأمتحانات
+                    </a>
+                    <ul class="sub-dropdown-content" role="menu"></ul>
+                  </li>
+
+                  <li class="sub-dropdown" role="menuitem">
+                    <a
+                      href="resultOfStudent.html"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                    >
+                      نتائج طلاب
+                    </a>
+                  </li>
+
+                  <li class="sub-dropdown" role="menuitem">
+                    <a
+                      href="studentServices.html"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                    >
+                      خدمات الطلاب
+                    </a>
+                  </li>
+
+                  <li class="sub-dropdown" role="menuitem">
+                    <a
+                      href="achievementScience.html"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                    >
+                      الانجازات العلمية للطلبة
+                    </a>
+                  </li>
+
+                  <li class="sub-dropdown" role="menuitem">
+                    <a
+                      href="electronicServices.html"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                    >
+                      خدمات ألكترونية
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="dropdown" role="menuitem">
+                <a href="#" aria-expanded="false" aria-haspopup="true">
+                  وحدات <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-content" role="menu">
+                  <li role="menuitem">
+                    <a href="qualityAssuranceUnit.html"
+                      >وحدة ابتكار وريادة أعمال</a
+                    >
+                  </li>
+                  <li role="menuitem">
+                    <a href="traningUnit.html">وحدة تدريب ميداني</a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="graduationJopUnit.html">وحدة خريجين و توظيف</a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="qulityUnit.html">وحدة ضمان الجودة</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="dropdown" role="menuitem">
+                <a href="#" aria-expanded="false" aria-haspopup="true">
+                  خدمة المجتمع <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-content" role="menu">
+                  <li role="menuitem">
+                    <a href="executePlan.html"
+                      >الخطة التنفيذية السنوية</a
+                    >
+                  </li>
+                  <li role="menuitem">
+                    <a href="awarnessProgram.html">برامج التوعية وتنمية البيئة </a>
+                  </li>
+                  <li role="menuitem">
+                    <a href="associatedEntities.html"
+                      >الكيانات المرتبطة بالمجتمع و البيئة</a
+                    >
+                  </li>
+                  <li role="menuitem">
+                    <a href="activitySocietyServices.html">أنشطة خدمة المجتمع والبيئة</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="dropdown" role="menuitem">
+                <a
+                  href="searchSection.html"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                >
+                  البحث و المؤتمرات
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <button
+            class="mobile-menu-btn"
+            id="mobileMenuBtn"
+            aria-label="فتح قائمة التنقل"
+          >
+            <span class="bars"><i class="fa-solid fa-bars"></i></span>
+          </button>
+        </div>
+        <nav
+          class="nav-mobile"
+          id="mobileNav"
+          aria-label="قائمة التنقل المحمول"
+        >
+          <button
+            class="close-btn"
+            id="closeMobileNav"
+            aria-label="إغلاق القائمة"
+          >
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <!-- ----------------------------------------------- -->
+          <ul class="mobile-main-menu">
+            <li class="menu-item"><a href="index.html">الصفحة الرئيسية</a></li>
+
+            <li class="menu-item has-dropdown">
+              <button
+                class="dropdown-toggle"
+                aria-expanded="false"
+                aria-controls="aboutSubMenu"
+              >
+                عن المعهد <i class="fas fa-chevron-down toggle-icon"></i>
+              </button>
+              <ul class="submenu" id="aboutSubMenu">
+                <li><a href="./structureModel.html">الهيكل التنظيمي</a></li>
+                <li><a href="leader.html">عميد المعهد</a></li>
+                <li><a href="listOfStuts.html">لائحة المعهد</a></li>
+                <li><a href="rateOfStatus.html">تقييم المعهد</a></li>
+                <li>
+                  <a href="selfStudy.html"
+                    >الدراسة الذاتية والخطة الإستراتيجية</a
+                  >
+                </li>
+                <li><a href="systemStydy.html"> نظام الدراسة </a></li>
+                <li>
+                  <a href="studentDirection.html"
+                    >قواعد توزيع الطلاب علي الأقسام</a
+                  >
+                </li>
+                <li><a href="functional.html">قرار المعادلة</a></li>
+                <li><a href="groups.html">أجتماعات</a></li>
+                <li><a href="active.html">فعاليات</a></li>
+                <li><a href="jops.html">أعلان وظائف</a></li>
+              </ul>
+            </li>
+
+            <li class="menu-item has-dropdown">
+              <button
+                class="dropdown-toggle"
+                aria-expanded="false"
+                aria-controls="sectionsSubMenu"
+              >
+                الأقسام <i class="fas fa-chevron-down toggle-icon"></i>
+              </button>
+              <ul class="submenu" id="sectionsSubMenu">
+                <li><a href="baisicScience.html">قسم العلوم الأساسية</a></li>
+                <li>
+                  <a href="chimecalSection.html">قسم الهندسة الكيميائية</a>
+                </li>
+                <li><a href="engineerSection.html">قسم الهندسة المدنية</a></li>
+                <li>
+                  <a href="electronicSection.html"
+                    >قسم هندسة الأتصالات و الإلكترونيات</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="menu-item has-dropdown">
+              <button
+                class="dropdown-toggle"
+                aria-expanded="false"
+                aria-controls="studentsSubMenu"
+              >
+                شئون الطلاب <i class="fas fa-chevron-down toggle-icon"></i>
+              </button>
+              <ul class="submenu" id="studentsSubMenu">
+                <li>
+                  <a href="studentCare.html"
+                    >الأرشاد الأكاديمي وريادة الأعمال</a
+                  >
+                </li>
+                <li><a href="enrollAcademic.html">التسجيل الاكاديمي</a></li>
+                <li><a href="supportAcademic.html">الدعم الأكاديمي</a></li>
+                <li><a href="studentTraining.html">تدريبات الطلاب</a></li>
+                <li>
+                  <a href="examDictionary.html">شئون الدراسة و الأمتحانات </a>
+                </li>
+                <li><a href="resultOfStudent.html">نتائج الطلاب</a></li>
+                <li><a href="studentServices.html">خدمات الطلاب</a></li>
+                <li>
+                  <a href="achievementScience.html">الأنجازات العلمية للطلاب</a>
+                </li>
+                <li><a href="electronicServices.html">خدمات ألكترونية</a></li>
+              </ul>
+            </li>
+
+            <li class="menu-item has-dropdown">
+              <button
+                class="dropdown-toggle"
+                aria-expanded="false"
+                aria-controls="unitsSubMenu"
+              >
+                الوحدات <i class="fas fa-chevron-down toggle-icon"></i>
+              </button>
+              <ul class="submenu" id="unitsSubMenu">
+                <li>
+                  <a href="qualityAssuranceUnit.html"
+                    >وحدة ابتكار وريادة أعمال</a
+                  >
+                </li>
+                <li><a href="traningUnit.html">وحدة تدريب ميداني</a></li>
+                <li>
+                  <a href="graduationJopUnit.html">وحدة خريجين و توظيف</a>
+                </li>
+                <li>
+                  <a href="qulityUnit.html">وحدة ضمان الجودة</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="menu-item has-dropdown">
+              <button
+                class="dropdown-toggle"
+                aria-expanded="false"
+                aria-controls="unitsSubMenu"
+              >
+                خدمات المجتمع<i class="fas fa-chevron-down toggle-icon"></i>
+              </button>
+              <ul class="submenu" id="unitsSubMenu">
+                <li>
+                  <a href="executePlan.html"
+                    >الخطة التنفيذية و السنوية</a
+                  >
+                </li>
+                <li>
+                  <a href="awarnessProgram.html">برامج التوعية و تنمية البيئة</a>
+                </li>
+                <li>
+                  <a href="associatedEntities.html"
+                    >الكيانات المرتبطة بالمجتمع و البيئة</a
+                  >
+                </li>
+                <li>
+                  <a href="activitySocietyServices.html">أنشطة خدمات المجتمع و البيئة</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="menu-item has-dropdown">
+              <button
+                class="dropdown-toggle"
+                aria-expanded="false"
+                aria-controls="unitsSubMenu"
+              >
+                <a href="searchSection.html" class="search"><h4>البحث و المؤتمرات</h4> </a>
+              </button>
+              <ul class="submenu" id="unitsSubMenu"></ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- end header -->
+
+    <div class="container">
+      <section class="service-section city-section" data-aos="fade-up">
+        <h2 class="section-TXT">المدينة الجامعية</h2>
+        <div class="content-box">
+          <p class="section-text">
+            حرصًا من المعهد على توفير الاستقرار لطالباته وحاجياتهن وتوفير الجو
+            النفسي لهم ومساعدتهم على التفوق والنجاح، فقد أولى المعهد حق اعتماده
+            تشييد مدن جامعية سكنية لهم وتوفر فيها كل ما يمكن توفيره من أثاث
+            ومكاتب وأجهزة كهربية.
+          </p>
+        </div>
+        <div class="visual-element" data-aos="zoom-in" data-aos-delay="200">
+          <i class="fas fa-building-columns"></i>
+        </div>
+      </section>
+
+      <section
+        class="service-section medical-section"
+        data-aos="fade-up"
+        data-aos-delay="150"
+      >
+        <h2 class="section-TXT">الرعاية الطبية</h2>
+        <div class="content-box">
+          <p class="section-text">
+            يوفر المعهد الرعاية الطبية للطلاب والعاملين من خلال العيادة الطبية
+            الشاملة بالمعهد، ويتعرف عليها أثناء الفحص بما يدعم بناءهم ومناعتهم
+            ضد تعرضهم للأمراض.
+          </p>
+          <p class="section-text">
+            وتقوم العيادة بمتابعة حالة المصابين بالأمراض المزمنة وذلك بإجراء
+            الكشف الطبي لتحديد الطلاب ذوي الأمراض المزمنة وبسهولة المقابل معها
+            طوال العام، ويتم تسجيلهم في سجلات خاصة لحماية حالاتهم بصفة مستمرة.
+            حيث يكون الكشف الطبي على الطلاب بشكل دوري مرة واحدة أثناء العام
+            الدراسي. وخلال العام الدراسي تقوم العيادة الطبية بتقديم الخدمات
+            الطبية اللازمة للجميع الطلاب والعاملين أيضًا من خلال الكشف الطبي
+            عليهم ووصف العلاج لهم ومتابعة حالاتهم الصحية.
+          </p>
+
+          <h3 class="subsection-TXT" data-aos="fade-right">
+            دور المعهد في الرقي بالخدمة الطبية
+          </h3>
+          <ul class="feature-list" data-aos="fade-left">
+            <li>
+              <i class="fa-solid fa-check"></i>توفير دورات تدريبية للمشرفات
+              والمشرفين بالمعهد على طرق الإنقاذ والإسعافات الأولية
+            </li>
+            <li>
+              <i class="fa-solid fa-check"></i>تم التعاقد مع مراكز اون تايم
+              الطبية لتقديم خدمة الجودة الطبية
+            </li>
+            <li>
+              <i class="fa-solid fa-check"></i>التعاقد مع مستشفى دار العيون
+              لخدمة الطلاب و العاملين بالمعهد
+            </li>
+          </ul>
+        </div>
+        <div
+          class="visual-element visual-element-medical"
+          data-aos="zoom-in"
+          data-aos-delay="300"
+        >
+          <img
+            src="assets/image/رعاية طبية.jpg"
+            alt="سرير في عيادة طبية"
+            class="medical-image"
+          />
+        </div>
+      </section>
+
+      <section
+        class="service-section recruitment-section"
+        data-aos="fade-up"
+        data-aos-delay="300"
+      >
+        <h2 class="section-TXT">تجنيد الطلاب</h2>
+        <div class="content-box">
+          <p class="section-text recruitment-text">
+            يؤجل المعهد العالي للهندسة والتكنولوجيا بدمياط الجديدة التجنيد
+            للطلاب حتى سن (**28**) سنة طبقًا للمادة (**38**) من قانون الخدمة
+            العسكرية والوطنية رقم (**127**) لسنة **1980**.
+          </p>
+        </div>
+      </section>
+
+      <section class="service-section recruitment-section">
+        <h2 class="section-TXT">برنامج الطلاب الوافدين</h2>
+        <div class="content-box">
+          <p class="section-text recruitment-text">
+            <a href="assets/image/برامج رعاية الوافدين.jpg">للأطلاع اضغط هنا</a>
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footre-logo">
+            <div class="image-foot">
+              <img src="./assets/image/ndeti-logo.png" alt="image footer" />
+              <h2>المعهد العالي للهندسة و التكنولوجيا بدمياط الجديدة</h2>
+            </div>
+          </div>
+
+          <div class="footer-column footer-links">
+            <h3 class="footer-title">عن المعهد</h3>
+            <ul class="footer-list">
+              <li role="menuitem">
+                <a href="./structureModel.html">الهيكل التنظيمي</a>
+              </li>
+              <li role="menuitem"><a href="leader.html">عميد المعهد</a></li>
+              <li role="menuitem">
+                <a href="listOfStuts.html">لائحة المعهد</a>
+              </li>
+              <li role="menuitem">
+                <a href="rateOfStatus">تقييم المعهد</a>
+              </li>
+              <li role="menuitem">
+                <a href="selfStudy.html">الدراسة الذاتيةوالخطةالأستراتيجية</a>
+              </li>
+              <li role="menuitem">
+                <a href="systemStydy.html">نظام الدراسة</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-column footer-links">
+            <h3 class="footer-title">أقسام المعهد</h3>
+            <ul class="footer-list">
+              <li><a href="baisicScience.html">قسم العلوم الأساسية</a></li>
+              <li><a href="engineerSection.html">قسم الهندسة المدنية</a></li>
+              <li><a href="chimecalSection.html">قسم الهندسة الكيميائية</a></li>
+              <li>
+                <a href="electronicSection.html">قسم الاتصالات والالكترونيات</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-column footer-links">
+            <h3 class="footer-title">وحدات المعهد</h3>
+            <ul class="footer-list">
+              <li>
+                <a href="qualityAssuranceUnit.html"
+                  >وحدة أبتكار و ريادة أعمال
+                </a>
+              </li>
+              <li><a href="traningUnit.html">وحدة تدريب ميداني </a></li>
+              <li><a href="graduationJopUnit.html">وحدة خريجين وتوظيف</a></li>
+              <li>
+                <a href="intrepenshipUnitImage.html">وحدة ضمان الجودة</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-column footer-contact">
+            <h3 class="footer-title">تواصل معنا</h3>
+            <ul class="contact-list">
+              <li class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span class="contact-text"
+                  >دمياط الجديد- المنطقة المركزية - الهيكلة الثانية - أمام الحي
+                  الرابع</span
+                >
+              </li>
+              <li class="contact-item contact-phone">
+                <i class="fas fa-phone-alt"></i>
+                <div class="phone-numbers">
+                  <span>057-2413235</span>
+                  <span>01007400202</span>
+                  <span>057-2407520</span>
+                  <span>057-2408620</span>
+                </div>
+              </li>
+              <li class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:NDETI.CONTACT@GMAIL.COM" class="contact-text"
+                  >NDETI.CONTACT@GMAIL.COM</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom-bar">
+          <div class="social-icons">
+            <a
+              href="https://www.facebook.com/share/1ExPKwKdR4/"
+              aria-label="فيسبوك"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="لينكد أن"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+
+            <a href="#" aria-label="واتس أب"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+            <a href="https://share.google/x50gQOkCaPNEpgLgC" aria-label=" جوحل"
+              ><i class="fa-brands fa-google"></i
+            ></a>
+          </div>
+
+          <p class="copyright">
+            Copyright 2016 ndeti | All Rights Reserved | Designed by Mssoom
+          </p>
+          <a href="#top" class="scroll-to-top" aria-label="العودة لأعلى الصفحة">
+            <i class="fas fa-angle-up"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/javaScript/responsive.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        once: true,
+        offset: 100,
+      });
+    </script>
+  </body>
+</html>
