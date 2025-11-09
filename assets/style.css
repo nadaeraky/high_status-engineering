@@ -40,7 +40,15 @@
   --radius-lg: 1rem;
   --header-height: 80px;
 }
-
+/* هذا الكود يضمن ظهور الشعار وتجاوز أي قاعدة إخفاء سابقة */
+.logo, .logo img {
+    /* ضمان العرض وعدم الإخفاء */
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    /* رفع طبقة العنصر فوق أي شيء آخر */
+    z-index: 99999 !important; 
+}
 html {
   font-size: 16px;
   scroll-behavior: smooth;
